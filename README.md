@@ -1,2 +1,11 @@
-# Book-Recommender-System
-A book recommender system based on the predictions from a singular value decomposition machine learning model utilizing matrix factorization in collaborative filtering algorithms. Data sourse: goodreads.com
+The download links for datasets used in this project are indicated in the Notebook, under Source of Data, Data Selected. 
+
+To use the interactive app for book recommendations:
+
+1. Unzip app.zip
+
+2. In the Notebook, under Modeling - Build the model - Optimal Model, uncomment the second cell, edit the file path to export the 3 files to directory app/.
+
+3. $ pip install streamlit
+
+4. $ streamlit run app.py python
